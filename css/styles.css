@@ -53,6 +53,9 @@ body{
     text-align: center;
     margin-top: 15px;
     text-decoration: none;
+    opacity: 0.8;
+}
+#login-form a:visited{
     color: black;
-    opacity: 0.7;
+    opacity: 0.8;
 }
