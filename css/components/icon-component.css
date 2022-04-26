@@ -1,0 +1,27 @@
+.icon-component__column{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-component__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    position: relative;
+}
+.icon-component__icon i,
+.icon-component__title{
+    opacity: 0.85;
+}
+.icon-component__icon i{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.icon-component__title{
+    text-align: center;
+}
+.icon-more__position{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+}

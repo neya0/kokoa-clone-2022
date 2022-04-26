@@ -17,25 +17,11 @@
     color: rgb(52, 52, 52);
 }
 .nav__notification{
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-    font-size: 12px;
     position: absolute;
     bottom:15px;
     left: 20px;
 }
 .nav__update{
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: tomato;
     position: absolute;
     right: -5px;
 }

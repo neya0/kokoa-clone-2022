@@ -1,0 +1,16 @@
+.alternative-screen__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+.alternative-screen__header-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.alternative-screen__header-icons:first-child{
+    margin-right: auto;
+}
+.alternative-screen__header-icons:last-child{
+    margin-left: auto;
+}

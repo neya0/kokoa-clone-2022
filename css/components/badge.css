@@ -1,0 +1,22 @@
+.badge__noti{
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+.badge__more{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+.badge_left{
+    color: rgba(0,0,0, 0.8);
+    font-size: 30px;
+}
