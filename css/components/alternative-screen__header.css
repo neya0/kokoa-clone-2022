@@ -1,16 +1,27 @@
-.alternative-screen__header{
+.alt-header{
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 20px 15px;
+    justify-content: center;
 }
-.alternative-screen__header-title{
-    font-size: 28px;
-    font-weight: 600;
+.alt-header__column{
+    width: 33%;
+    font-size: 20px;
 }
-.alternative-screen__header-icons:first-child{
+.alt-header__column:first-child{
     margin-right: auto;
 }
-.alternative-screen__header-icons:last-child{
+.alt-header__column:nth-child(2){
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.alt-header__column:last-child{
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header__column:last-child span{
+    margin-left: 15px;
 }
